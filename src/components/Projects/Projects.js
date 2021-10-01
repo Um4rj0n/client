@@ -26,7 +26,6 @@ class Projects extends Component {
   //   }
   // }
   render() {
-    console.log('render working...');
     // const { data, isLoaded } = this.state;
     return (
       <Container fluid className="project-section">
