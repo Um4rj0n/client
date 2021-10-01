@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import dotenv  from 'dotenv'
+
 dotenv.config({ path: '/custom/path/to/.env' })
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
